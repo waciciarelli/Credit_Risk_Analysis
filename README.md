@@ -24,10 +24,38 @@ To determine the efficiency of each model, the balanced accuracy score, precisio
 
 ![Random Sampling Classification Report](https://github.com/waciciarelli/Credit_Risk_Analysis/blob/main/Screenshots/cr_resampling_classification_report_imbalanced.png?raw=true)
 
+As demonstrated above:
+* The balanced accuracy score is
+
 ### SMOTE Oversampling
 
 ![SMOTE Oversampling balanced accuracy](https://github.com/waciciarelli/Credit_Risk_Analysis/blob/main/Screenshots/cr_resampling_balanced_accuracy_score_smote.png?raw=true)
 
+![SMOTE Oversampling Classification Report](https://github.com/waciciarelli/Credit_Risk_Analysis/blob/main/Screenshots/cr_resampling_classification_report_imbalanced_smote.png?raw=true)
+
+### Cluster Centroids Oversampling
+
+![Undersampling balanced accuracy](https://github.com/waciciarelli/Credit_Risk_Analysis/blob/main/Screenshots/cr_resampling_balanced_accuracy_score_undersampling.png?raw=true)
+
+![Undersampling Classification Report](https://github.com/waciciarelli/Credit_Risk_Analysis/blob/main/Screenshots/cr_resampling_classification_report_imbalanced_undersampling.png?raw=true)
+
+### SMOTEENN Combination Sampling
+
+![SMOTEENN balanced accuracy](https://github.com/waciciarelli/Credit_Risk_Analysis/blob/main/Screenshots/cr_resampling_balanced_accuracy_score_over_and_under.png?raw=true)
+
+![SMOTEENN Classification Report](https://github.com/waciciarelli/Credit_Risk_Analysis/blob/main/Screenshots/cr_resampling_classification_report_imbalanced_over_and_under.png?raw=true)
+
+### Balanced Random Forest Classifier
+
+![Forest balanced accuracy](https://github.com/waciciarelli/Credit_Risk_Analysis/blob/main/Screenshots/cr_ensemble_balanced_accuracy_score.png?raw=true)
+
+![Forest Classification Report](https://github.com/waciciarelli/Credit_Risk_Analysis/blob/main/Screenshots/cr_ensemble_classification_report_imbalanced.png?raw=true)
+
+### Easy Ensemble AdaBoost Classifier
+
+![AdaBoost balanced accuracy](https://github.com/waciciarelli/Credit_Risk_Analysis/blob/main/Screenshots/cr_ensemble_balanced_accuracy_score_adaboost.png?raw=true)
+
+![AdaBoost Classification Report](https://github.com/waciciarelli/Credit_Risk_Analysis/blob/main/Screenshots/cr_ensemble_classification_report_imbalanced_adaboost.png?raw=true)
 
 
 ## Summary: 
