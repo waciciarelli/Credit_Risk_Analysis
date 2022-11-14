@@ -86,3 +86,5 @@ As demonstrated above:
 
 ## Summary: 
 ### Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
+The resampling models (Random Oversampling, SMOTE Oversampling, Cluster Centroids Undersampling, and SMOTEENN Combination Sampling) performed better than the classifiers (Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier). As such, the recommended model to use for this dataset would be the SMOTE model. The difference in the recall between the two classes is only 0.06, and the balanced accuracy score is 0.66. To achieve a balanced model, the SMOTE model would be the best fit.
